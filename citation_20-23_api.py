@@ -7,10 +7,10 @@ import os
 import requests
 
 urls = [
-    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2023/FeatureServer/0/query',
-    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2020/FeatureServer/0/query',
-    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2021/FeatureServer/0/query',
-    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2022/FeatureServer/0/query'
+    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2023/FeatureServer/0/query', # noqa
+    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2020/FeatureServer/0/query', # noqa
+    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2021/FeatureServer/0/query', # noqa
+    'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/Louisville_Metro_KY_Uniform_Citation_Data_2022/FeatureServer/0/query' # noqa
 ]
 
 batch_size = 1000
